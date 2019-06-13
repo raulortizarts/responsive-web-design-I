@@ -223,9 +223,15 @@ footer {
     .top-navigation nav {
         /* margin-left: 40px; */
         width: 100%;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
+        border-top:1px solid black;
+        border-width:1px 0;
+        margin:0;
+        padding:0;
+        text-align:center;
+}
         /* justify-content: space-evenly; */
         
     
@@ -233,6 +239,9 @@ footer {
     }
     .top-navigation nav a {
         width: 100%;
+        display:inline-block;
+        margin:0;
+        padding:10px;
         /* margin-left: 40px; */
         /* display: flex;
         flex-direction: column;
@@ -245,6 +254,7 @@ footer {
     
     .logo {
         position: absolute;
+        margin:0;
         top: 10px;
         
     }
