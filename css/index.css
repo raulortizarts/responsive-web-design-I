@@ -239,17 +239,23 @@ footer {
             margin:0;
             padding:0;
             text-align:center;
+            justify-content: space-evenly;
     }
-            /* justify-content: space-evenly; */
+            
             
         
             /* display: inline-block; */
         
 
         .top-navigation nav a {
-            margin-left: 40px;
+            margin: 0 40px 0 0;
             color: grey;
             text-decoration: none;
+            /* display: inline-block; */
+        }
+
+        .top-navigation nav :last-child{
+            margin: 0;
             /* display: inline-block; */
         }
         /*
